@@ -1,0 +1,72 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       
+       html,
+      body {
+        height: 100%;
+        background:fixed;
+        margin: 0;
+        padding: 0;
+        
+        background-color: #e9cfee;
+        background-size: cover;
+        background-position: center;
+
+        
+      }
+
+
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
+  
+
+      .hd{
+        margin-left: 20px;
+        text-align: center;
+      }
+
+      .hd h1{
+        color: rgb(51, 4, 161);           
+        font-size: 40px;
+      }
+
+      
+       
+       #map {
+        height: 78%;
+        margin-top: 10px;
+        margin: auto;
+        width: 80%;
+        border-color: rgb(110, 6, 151); 
+      
+      }
+
+      #nearbtn {
+        border: 3px solid rgb(15, 12, 12);
+        margin-bottom: 1%;
+        background-color: rgb(251, 253, 124);
+        font-weight:900;
+        font-size: 100%;
+        transition: ease-out 1s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      #nearbtn:hover{
+        background-color: black;
+        font-size: 140%;
+        color: rgb(255, 251, 0);
+      }
+

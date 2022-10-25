@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+html,
+body {
+  height: 100%;
+  background:fixed;
+  margin: 0;
+  padding: 0;
+  
+  background-image: url(bcc.jpg);
+  background-position: center;
+
+  
+}
+
+#container{
+
+    background-color: rgb(154, 170, 241);
+    background: transparent;
+    width: 94%;
+    height: 70%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between; 
+  /*    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    */
+  
+}
+
+
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
+  
+
+#arc{
+    position: relative;
+    height: 95%;
+    width:22%;
+
+    background-color:rgba(17, 17, 17, 0.733);
+    box-shadow: 8px 8px 3px rgb(12, 12, 12);
+    border-radius: 5%;
+    transition: ease-out 0.4s;
+    border: 8px solid rgb(255, 255, 255);
+    
+}
+
+#arc:hover{
+
+    height: 100%;
+    width:23%;
+    background-color: rgba(86, 61, 155, 0.76);
+
+
+}
+
+
+#krish{
+    position: relative;
+    height: 95%;
+    width:22%;
+    
+    
+    background-color:rgba(17, 17, 17, 0.774);
+    box-shadow: 8px 8px 3px rgb(39, 39, 39);
+    border-radius: 5%;
+    transition: ease-out 0.4s;
+    border: 8px solid rgb(255, 255, 255);
+
+    
+
+
+}
+
+#krish:hover{
+
+
+    height: 100%;
+    width:23%;
+    background-color: rgba(86, 61, 155, 0.76);
+
+
+}
+
+#anuj{
+    position: relative;
+    height: 95%;
+    width:22%;
+    background-color:rgba(17, 17, 17, 0.733);
+    box-shadow: 8px 8px 3px rgb(39, 39, 39);
+    border-radius: 5%;
+    transition: ease-out 0.4s;
+    border: 8px solid rgb(255, 255, 255);
+
+}
+
+#anuj:hover{
+    
+    height: 100%;
+    width:23%;
+    background-color: rgba(86, 61, 155, 0.76);
+
+}
+
+#abhi{
+    position: relative;
+    height: 95%;
+    width:22%;
+    background-color:rgba(17, 17, 17, 0.774);
+    box-shadow: 8px 8px 3px rgb(39, 39, 39);
+    border-radius: 5%;
+    transition: ease-out 0.4s;
+    border: 8px solid rgb(255, 255, 255);
+
+}
+
+#abhi:hover{
+    
+    height: 100%;
+    width:23%;
+    background-color: rgba(86, 61, 155, 0.76);
+
+}
+
+#head{
+    width: 100%;
+    height: 30%;
+    border-radius: 5%;
+
+    background-color: yellow;
+    background:transparent;
+}
+
+#disc{
+    width: 100%;
+    height: 45%;
+    border-radius: 5%;
+
+    background-color: rgba(51, 255, 0, 0.726);
+    background:transparent;
+}
+
+#name {
+
+    
+    width: 100%;
+    height: 8%;
+    border-radius: 5%;
+    padding-top: 2%;
+    text-align: center;
+    color: rgb(238, 255, 0);
+
+}
+
+#dp{
+    position: relative;
+    
+    left: 50%;
+    top:50%;
+    border-radius: 50%;
+    width:50%;
+    height: 90%;
+    transform:translate(-50%,-50%);
+
+    border: 1px solid black;
+}
+
+#Description {
+
+    position: relative;
+    width: 90%;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    color: turquoise;
+}
+
+#Description h2{
+    font-size: 25px;
+}
+
+#sm {
+    width: 100%;
+    height: 25%;
+
+}
+
+@media (max-width: 800px)
+{
+
+    #container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #arc{
+        width: 80%;
+        margin-bottom: 5%;
+        height: fit-content;
+        transition: ease-out 0.3s;
+
+    }
+
+    #krish {
+        width: 80%;     
+        margin-bottom: 5%;
+        height: fit-content;
+        transition: ease-out 0.3s;
+
+    }
+
+    #anuj{
+        width:80%;
+        margin-bottom: 5%;
+        height: fit-content;
+        transition: ease-out 0.3s;
+    }
+
+  
+    #abhi{
+        width: 80%;
+        margin-bottom: 5%;
+        height: fit-content;
+        transition: ease-out 0.3s;
+
+    }
+
+    #anuj:hover{
+        width:82%;
+          background-color: rgba(86, 61, 155, 0.76);
+
+              height: fit-content;
+
+    
+    }
+
+    
+    #abhi:hover{
+        width:82%;    
+      background-color: rgba(86, 61, 155, 0.76);
+
+              height: fit-content;
+
+    
+    }
+
+    
+    #arc:hover{
+        width:82%;
+          background-color: rgba(86, 61, 155, 0.76);
+
+        height: fit-content;
+
+    
+    }
+
+    
+    #krish:hover{
+        width:82%;
+          background-color: rgba(86, 61, 155, 0.76);
+
+        height: fit-content;
+
+    
+    }
+    
+    #disc h2{
+        font-size: larger;
+    }
+
+    #name h3{
+        font-size: larger;
+    }
+
+
+    /*
+    #container {
+        margin-top: 40px;
+        position: absolute;
+        top:15%;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-top: 100px;
+        background-color: turquoise;
+        padding: 30px;
+
+    }
+
+    #arc{
+        height: 400px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    
+    #krish{
+        
+        height: 400px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #anuj{
+        
+        height: 400px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    #abhi{
+    
+        height: 400px;
+        width: 80%;
+        margin-bottom: 10px;
+        
+    } */
+}
