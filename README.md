@@ -2,5 +2,5 @@
 Food Points in the BIT Campus AND There prediced crowd and Menu Details.
 Enjoy Hassle Free Outings..!!
 
-Link : https://adityaarc.github.io/bitopath/
+Link :https://github.com/coder8528rock/Bito-path
 
